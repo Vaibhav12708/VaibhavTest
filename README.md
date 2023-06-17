@@ -1,7 +1,8 @@
 # VaibhavTest
 
-##PART A
-1) Mention the working of Internet Website in Terms of Front-end & Back-end Divisions 
+#PART A
+   
+   1) Mention the working of Internet Website in Terms of Front-end & Back-end Divisions 
 
 The front-end and the back-end are typically the two main divisions involved in how an internet website functions. Let's examine these divisions and their different responsibilities in more detail: 
 
@@ -25,7 +26,8 @@ Application Programming Interfaces, or APIs, allow data to be exchanged and comm
 Back-end developers put their attention on creating dependable and effective systems that manage data processing, business logic, and connection with other services, ensuring the website runs efficiently and safely. 
 
 
-2) What are tags in HTML? Explain the each category of tag with an Example. 
+
+   2) What are tags in HTML? Explain the each category of tag with an Example. 
 
 The structure and components of a web page are defined by tags. Tags are often used in pairs, with an opening tag and a closing tag, and are encased in angle brackets (">" and "/>"). Between the opening and closing tags, there is space for the tag's content. 
 
@@ -71,7 +73,8 @@ Table Tags: The HTML table, table row, and table data tags are used to structure
 
  
 
-3) Explain the working Procedure of Virtual DOM 
+
+   3) Explain the working Procedure of Virtual DOM 
 
 The virtual DOM provides a mechanism that abstracts manual DOM manipulations away from the developer, helping us to write more predictable code. It does so by comparing two render trees to determine exactly what has changed, only updating what is necessary on the actual DOM. 
 Like React, Vue also employs this strategy. However, Svelte proposes another approach to ensure that an application is optimized, compiling all components into independent, tiny JavaScript modules, making the script very light and fast to run. 
@@ -79,4 +82,52 @@ By using the Virtual DOM, React minimizes the number of direct manipulations on 
 
  
 
- 
+   4)Mention some Differences between MySQL and No SQL.
+
+Transactions:
+MySQL: It provides support for ACID-compliant transactions, ensuring data integrity and consistency.
+NoSQL: NoSQL databases often sacrifice full transaction support in favor of scalability and performance, offering eventual consistency or relaxed transactional guarantees.
+
+Data Storage:
+MySQL: It stores data in structured tables using fixed schemas.
+NoSQL: NoSQL databases offer various storage formats based on the data model, such as JSON-like documents, key-value pairs, or columnar storage.
+
+Use Cases:
+MySQL: It is commonly used for traditional relational data scenarios, such as content management systems, e-commerce platforms, and data-driven applications.
+NoSQL: NoSQL databases are often used in scenarios requiring scalability, real-time analytics, handling large volumes of unstructured or semi-structured data, and rapid development iterations.
+
+Flexibility:
+MySQL: It provides strong data consistency and ensures data integrity through strict schema definitions and relationships.
+NoSQL: NoSQL databases prioritize flexibility, allowing for agile development, accommodating changing data structures, and handling unstructured or semi-structured data efficiently.
+
+Joins:
+MySQL: It supports complex joins between tables for querying data across related entities.
+NoSQL: NoSQL databases often avoid joins and favor denormalization or embedding of related data within a single document or record.
+
+Vertical Scaling:
+MySQL: It is typically well-suited for vertical scaling, where a single server can handle increased workloads by adding more powerful hardware.
+NoSQL: NoSQL databases are designed for horizontal scaling, allowing them to distribute data across multiple servers to handle increased traffic.
+
+
+   5)Explain any one DBMS Technology in your own words.
+
+RDBMS (Relational Database Management System) is a technology that manages and organizes data based on the relational data model. It is widely used in the industry and has been the dominant database technology for several decades. Here's a further expansion on RDBMS technology:
+
+Relational Data Model:
+RDBMS follows the relational data model, which organizes data into tables or relations. Each table consists of rows (also known as tuples) and columns (also known as attributes). The relationships between tables are established through keys, such as primary keys and foreign keys, ensuring data integrity and enforcing referential integrity constraints.
+
+Data Normalization:
+RDBMS encourages data normalization, which is the process of organizing data into well-structured tables. Normalization minimizes data redundancy and ensures data integrity by eliminating data anomalies, such as update anomalies, insert anomalies, and delete anomalies. It results in efficient storage, reduced redundancy, and improved data consistency.
+
+ACID Properties:
+RDBMS offers ACID properties, which are critical for reliable and consistent data management. ACID stands for Atomicity, Consistency, Isolation, and Durability.
+
+Atomicity: Ensures that a transaction is treated as a single unit of work. It either succeeds completely or is rolled back entirely if any part fails.
+
+Data Integrity:
+RDBMS provides mechanisms for maintaining data integrity. It supports the enforcement of constraints, such as primary key constraints, foreign key constraints, unique constraints, and check constraints. These constraints ensure that data remains consistent and accurate, preventing invalid or inconsistent data from being inserted or modified.
+
+Structured Query Language (SQL):
+SQL is the standard language used to interact with RDBMS. It provides a comprehensive set of commands for creating, querying, modifying, and managing relational databases. SQL allows users to define tables, insert data, retrieve specific data with powerful queries, update records, and perform various other database operations.
+
+
